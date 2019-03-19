@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/bin/prometheus-sd-dcosl4lb-linux --output.file=/etc/prometheus/dcosl4lb.json

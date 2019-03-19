@@ -1,0 +1,62 @@
+[
+  {
+    "backend": [
+      {
+        "ip": "172.17.130.15",
+        "port": 14211
+      },
+      {
+        "ip": "172.17.130.31",
+        "port": 14211
+      },
+      {
+        "ip": "172.17.130.46",
+        "port": 14211
+      }
+    ],
+    "protocol": "tcp",
+    "vip": "prometheus-redis.marathon.l4lb.thisdcos.directory:9190"
+  },
+  {
+    "backend": [
+      {
+        "ip": "10.40.58.5",
+        "port": 9330
+      }
+    ],
+    "protocol": "tcp",
+    "vip": "prometheus-redis.test.l4lb.thisdcos.directory:9190"
+  },
+  {
+    "backend": [
+      {
+        "ip": "10.20.58.5",
+        "port": 9330
+      },
+      {
+        "ip": "10.24.58.5",
+        "port": 9330
+      }
+    ],
+    "protocol": "tcp",
+    "vip": "prometheus-mysql.test.l4lb.thisdcos.directory:9190"
+  },
+  {
+    "backend": [
+      {
+        "ip": "172.17.130.15",
+        "port": 30402
+      },
+      {
+        "ip": "172.17.130.31",
+        "port": 30402
+      },
+      {
+        "ip": "172.17.130.46",
+        "port": 30402
+      }
+    ],
+    "protocol": "tcp",
+    "vip": "mssql-proxies.marathon.l4lb.thisdcos.directory:1433"
+  }
+]

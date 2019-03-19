@@ -1,0 +1,6 @@
+scrape_configs:
+  - job_name: "dcosl4lb-sd"
+    scrape_interval: "5s"
+    file_sd_configs:
+    - files:
+      - /etc/prometheus/dcosl4lb.json
